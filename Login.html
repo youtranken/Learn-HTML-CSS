@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Login.css" />
+    <title>Login Form</title>
+  </head>
+
+  <body>
+    <div class="login">
+      <h2 class="login__title">LOGIN</h2>
+      <div action="#" class="login__form">
+        <!-- login.js lấy dữ liệu từ Form dc nhập vào  -->
+        <form>
+          <input
+            type="text"
+            class="login__input__username"
+            name="Username"
+            placeholder="Username"
+            required
+          />
+          <input
+            class="login__input__password"
+            type="password"
+            name="Password"
+            placeholder="Password"
+            required
+          />
+          <button class="login__button login__button--primary" type="submit" id="loginBtn">
+            Login Now
+          </button>
+        </form>
+      </div>
+      <p class="login__other">Login with Others</p>
+      <div class="login__social">
+        <button class="login__button login__button--google"><img src="Image/icon Google.png" alt="Google Icon"></img>
+        <b>Google</b>
+        </button>
+        <button class="login__button login__button--facebook"><img src="Image/icon Facebook.png" alt="Facebook Icon">
+        <b>Facebook</b>
+        </button>
+      </div>
+    </div>
+    <script src="login.js" ></script>
+
+  </body>
+  
+</html>
+
